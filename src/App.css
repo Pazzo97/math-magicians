@@ -20,7 +20,7 @@ main {
   display: flex;
   justify-content: right;
   align-items: center;
-  background-color: #a9a9a9;
+  background-color: darkgray;
   color: #f7f7f7;
   padding-left: 5px;
   padding-right: 5px;
@@ -35,7 +35,7 @@ main {
 .btn-second-color {
   border-style: none;
   border: 1px solid lightgray;
-  background-color: #f99f38;
+  background-color: darkorange;
 }
 
 .calc-ac-button {
