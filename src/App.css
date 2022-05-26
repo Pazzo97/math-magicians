@@ -132,3 +132,8 @@ main {
   grid-column: 4;
   grid-row: 6;
 }
+
+button {
+  font-weight: 900;
+  font-size: 15px;
+}
