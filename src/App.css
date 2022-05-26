@@ -1,0 +1,139 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: grid;
+  grid-template-rows: 60px 60px 60px 60px 60px 60px;
+  grid-template-columns: 100px 100px 100px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.calc-monitor {
+  grid-column: 1/ span 4;
+  grid-row: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: darkgray;
+  color: #f7f7f7;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.btn-main-color {
+  border-style: none;
+  border: 1px solid lightgray;
+  background-color: #f0f0f0;
+}
+
+.btn-second-color {
+  border-style: none;
+  border: 1px solid lightgray;
+  background-color: darkorange;
+}
+
+.calc-ac-button {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.calc-plusminus-button {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.calc-percentage-button {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.calc-divide-button {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.calc-7-button {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.calc-8-button {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.calc-9-button {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.calc-multiply-button {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.calc-4-button {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.calc-5-button {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.calc-6-button {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.calc-substract-button {
+  grid-column: 4;
+  grid-row: 4;
+}
+
+.calc-1-button {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.calc-2-button {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.calc-3-button {
+  grid-column: 3;
+  grid-row: 5;
+}
+
+.calc-add-button {
+  grid-column: 4;
+  grid-row: 5;
+}
+
+.calc-0-button {
+  grid-column: 1/ span 2;
+  grid-row: 6;
+}
+
+.calc-dot-button {
+  grid-column: 3;
+  grid-row: 6;
+}
+
+.calc-equal-button {
+  grid-column: 4;
+  grid-row: 6;
+}
+
+button {
+  font-weight: 900;
+  font-size: 15px;
+}
