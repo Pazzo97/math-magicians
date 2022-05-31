@@ -1,7 +1,12 @@
+.mathMagicians {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 main {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
 }
 
 .calculator {
@@ -136,4 +141,48 @@ main {
 button {
   font-weight: 900;
   font-size: 15px;
+}
+
+.calulator-content {
+  margin-block-start: 0;
+  font-weight: normal;
+}
+
+.headerStyle {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.navList {
+  display: flex;
+  gap: 10px;
+}
+
+.navList li {
+  display: flex;
+  gap: 10px;
+}
+
+.active-link {
+  color: #000;
+  text-decoration: underline;
+}
+
+.active {
+  color: blue;
+  text-decoration: underline;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.quote {
+  font-weight: bold;
 }
