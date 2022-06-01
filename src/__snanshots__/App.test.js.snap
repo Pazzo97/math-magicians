@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component test Calculator component must render correctly on initial run 1`] = `
+<main>
+  <div>
+    <h2
+      className="calulator-content"
+    >
+      Let's do some math!
+    </h2>
+  </div>
+  <div
+    className="calculator"
+  >
+    <div
+      className="calc-monitor"
+    >
+      <span>
+        0
+      </span>
+      <span />
+      <span />
+    </div>
+    <button
+      className="calc-ac-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="calc-plusminus-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="calc-percentage-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="calc-divide-button btn-second-color"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="calc-7-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="calc-8-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="calc-9-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="calc-multiply-button btn-second-color"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="calc-4-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="calc-5-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="calc-6-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="calc-subtract-button btn-second-color"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="calc-1-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="calc-2-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="calc-3-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="calc-add-button btn-second-color"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="calc-0-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="calc-dot-button btn-main-color"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="calc-equal-button btn-second-color"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</main>
+`;
+
+exports[`component test Header component must render correctly on initial run 1`] = `
+<header
+  className="headerStyle"
+>
+  <h1>
+    Math magicians
+  </h1>
+  <div>
+    <nav
+      className="navBar"
+    >
+      <ul
+        className="navList"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="active-link active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+          <span>
+            |
+          </span>
+        </li>
+        <li>
+          <a
+            className="active-link"
+            href="/Calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+          <span>
+            |
+          </span>
+        </li>
+        <li>
+          <a
+            className="active-link"
+            href="/Quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+`;
+
+exports[`component test Home component must render correctly on initial run 1`] = `
+<div>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <p>
+    Math Magicians is a web application built with React. It provides a beautiful calculator interface that allows people to perform simple calculations. It is free to use and share with anyone.
+  </p>
+</div>
+`;
+
+exports[`component test Quote component must render correctly on initial run 1`] = `
+<div
+  className="quote-container"
+>
+  <h3
+    className="quote"
+  >
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. -William Paul Thurston
+  </h3>
+</div>
+`;
