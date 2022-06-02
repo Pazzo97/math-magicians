@@ -99,3 +99,41 @@ describe('Functions test', () => {
     );
   });
 });
+
+describe('component test', () => {
+  it('Calculator component must render correctly on initial run', () => {
+    const tree = renderer.create(<Calculator />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Quote component must render correctly on initial run', () => {
+    const tree = renderer.create(<Quote />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Home component must render correctly on initial run', () => {
+    const tree = renderer.create(<Home />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Header component must render correctly on initial run', () => {
+    const tree = renderer
+      .create(
+        <Router>
+          <Header />
+        </Router>,
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  test('Simulation of user clicking button 9 twice', () => {
+    render(<Calculator />);
+    const buttonEl = screen.getByText(/9/i);
+
+    userEvent.click(buttonEl);
+    userEvent.click(buttonEl);
+
+    expect(screen.getByText(/99/i)).toBeInTheDocument();
+  });
+});
