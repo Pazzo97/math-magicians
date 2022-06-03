@@ -28,11 +28,21 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
+### Author 1
+
 👤 **Patrick MUKUNZI**
 
 - GitHub: [@Pazzo97](https://github.com/Pazzo97)
 - Twitter: [@mukunzipat](https://twitter.com/mukunzipat)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/patrick-mukunzi-8389861a9/)
+
+### Author 2
+
+👤 **Natnail G/gorgis**
+
+- GitHub: [@NatiG25](https://github.com/NatiG25)
+- Twitter: [@NatiG87702270](https://twitter.com/NatiG87702270)
+- LinkedIn: [@Temesgen](https://linkedin.com/in/temesgen-g-gorgis-0910a6229 )
 
 ## 🤝 Contributing
 
@@ -46,9 +56,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse linters
 
 ## 📝 License
 
